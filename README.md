@@ -8,4 +8,5 @@ Progress : <br>
 1- Functional App = ✅ <br>
 2- Ability to download QR = ✅ <br>
 3- Responsive Web Design = ✅ <br>
-4- Responsive Mobile Design = ❌
+4- Responsive Mobile Design = ❌ <br>
+5- Max character limit is 160 = ✅
