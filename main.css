@@ -1,5 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 h1 {
     display: flex;
     justify-content: center;
     text-transform: uppercase;
+    margin-top: 2ch;
 }

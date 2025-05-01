@@ -11,6 +11,15 @@
             defer></script>
     </head>
     <body>
-        <h1>Qr-Code</h1>
+        <h1>Qr-Code Generator</h1>
+        <section class="container">
+            <form class="Input">
+                <input type="text" id="urlInput"
+                    placeholder="Please Enter Url or Text here...">
+                <button onclick="generateQR()">Generate QR</button>
+            </form>
+            <p id="qrcode"></p>
+            <button id="download" onclick="downloadQR()">Download QR</button>
+        </section>
     </body>
 </html>
