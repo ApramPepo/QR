@@ -6,6 +6,6 @@ The "QRcodeJS" library from cdnJS is being used in this project.
 <hr>
 Progress : <br>
 1- Functional App = ✅ <br>
-2- Ability to download QR = ❌ <br>
+2- Ability to download QR = ✅ <br>
 3- Responsive Web Design = ❌ <br>
 4- Responsive Mobile Design = ❌
