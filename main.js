@@ -1,7 +1,7 @@
 let qrCode = null;
-let qrData = null;
+let canvasElement = null;
 
-function generateQR() {
+function generateQR(event) {
     const url = document.getElementById('urlInput').value.trim();
     const qrpara = document.getElementById('qrcode');
 
@@ -20,7 +20,7 @@ function generateQR() {
         correctLevel: QRCode.CorrectLevel.H
     });
 
-    document.getElementById('download').style.display = 'inline-block';
+    document.getElementById('downloadbtn').style.display = 'inline-block';
 
 }
 
@@ -31,4 +31,9 @@ function downloadQR() {
         alert("No QR code to download");
         return;
     }
+
+    const link = document.createElement('a');
+    link.download = "qrCode.png";
+    link.href = canvas.toDataURL('image/png');
+    link.click();
 }

@@ -16,10 +16,11 @@
             <form class="Input">
                 <input type="text" id="urlInput"
                     placeholder="Please Enter Url or Text here...">
-                <button onclick="generateQR()">Generate QR</button>
+                <button type="button" onclick="generateQR(event)">Generate
+                    QR</button>
             </form>
             <p id="qrcode"></p>
-            <button id="download" onclick="downloadQR()">Download QR</button>
+            <button id="downloadbtn" onclick="downloadQR()">Download QR</button>
         </section>
     </body>
 </html>
