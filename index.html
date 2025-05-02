@@ -17,11 +17,14 @@
             <form class="Input">
                 <input type="text" id="urlInput"
                     placeholder="Please Enter Url or Text here..."
-                    maxlength="160">
+                    maxlength="200">
                 <button type="button" onclick="generateQR(event)">Generate
                     QR</button>
             </form>
-            <p id="qrcode"></p>
+            <output id="qrcode" for="urlInput" role="img"
+                aria-label="Generated QR Code">
+                <!-- Generated QR goes here -->
+            </output>
             <button id="downloadbtn" onclick="downloadQR()">Download QR</button>
         </section>
     </body>

@@ -19,7 +19,7 @@ h1 {
     justify-content: center;
     text-transform: uppercase;
     margin: 2rem 1rem;
-    padding: 0.5ch;
+    padding: 1.5rem;
     border: 1px solid black;
     border-radius: 0.5em;
     color: #1a73e8;
@@ -36,6 +36,7 @@ section {
     align-items: center;
     height: 20rem;
     width: auto;
+    margin-top: 3rem;
 }
 
 .Input {
@@ -64,4 +65,23 @@ button {
 
 button:hover {
     background: #1557b0;
+}
+
+form {
+    padding: 1.5rem;
+}
+
+output {
+    display: block;
+    margin: 1.5rem auto;
+    min-height: 200px;
+    width: fit-content;
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+output:empty::before {
+    content: "QR Code goes here";
+    color: #999;
 }

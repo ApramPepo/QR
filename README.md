@@ -9,4 +9,5 @@ Progress : <br>
 2- Ability to download QR = ✅ <br>
 3- Responsive Web Design = ✅ <br>
 4- Responsive Mobile Design = ❌ <br>
-5- Max character limit is 160 = ✅
+5- Max character limit is 160 = ✅ <br>
+6- Increased character limit to 200 = ✅
